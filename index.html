@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home" onclick="showSection('home')">Home</a></li>
+            <li><a href="#about" onclick="showSection('about')">About</a></li>
+            <li><a href="#services" onclick="showSection('services')">Services</a></li>
+            <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="content">
+        <h2>Welcome to our Website</h2>
+        <p>This is the home page where you can find the latest updates and news.</p>
+    </section>
+
+    <section id="about" class="content" style="display:none;">
+        <h2>About Us</h2>
+        <p>Learn more about our company, our mission, and our values.</p>
+    </section>
+
+    <section id="services" class="content" style="display:none;">
+        <h2>Our Services</h2>
+        <p>We offer a wide range of services to meet your needs.</p>
+    </section>
+
+    <section id="contact" class="content" style="display:none;">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for any inquiries or support.</p>
+    </section>
+</body>
+</html>
